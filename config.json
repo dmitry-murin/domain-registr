@@ -1,0 +1,19 @@
+{
+  "db": {
+    "host": "127.0.0.1",
+    "name": "pskp_lab08",
+    "user": "root",
+    "password": "",
+    "port":"3306",
+    "dialect":"mysql"
+  },
+  "db_heroku":{
+    "host":"ec2-54-235-181-120.compute-1.amazonaws.com",
+    "name":"dadu0egqu5usd1",
+    "user":"ptvjprrlibzjsd",
+    "password":"2e7faf7c653809a93a0173ecd7703b3b0889f6de9fc790ed95e52ff0affdb306",
+    "port":"5432",
+    "dialect":"postgres"
+  },
+  "cost": 20
+}

@@ -1,0 +1,17 @@
+language: node_js
+notifications:
+  email:
+    on_success: never
+    on_failure: change
+node_js:
+  - "6.9.5"
+before_script:
+  - npm install
+  - npm install --only=dev
+  - npm install --global mocha
+script:
+  - mocha tests/unit/*.js --timeout 5000
+deploy:
+  provider: heroku
+  api_key: 28c34bb5-7f95-4bf1-9f99-37560da1d1f3
+  app: ydn-lab12
